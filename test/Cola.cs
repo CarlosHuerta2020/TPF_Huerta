@@ -9,6 +9,10 @@ namespace DeepSpace
 
 		
 		private List<T> datos = new List<T>();
+		public int cantElement()
+		{
+			return datos.Count;
+		}
 	
 		public void encolar(T elem) {
 			this.datos.Add(elem);
